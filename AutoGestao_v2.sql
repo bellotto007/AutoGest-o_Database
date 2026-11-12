@@ -1,16 +1,3 @@
-DROP TABLE IF EXISTS
-    item_peca,
-    item_servico,
-    os_mecanico,
-    orcamento,
-    ordem_servico,
-    peca,
-    servico,
-    mecanico,
-    veiculo,
-    cliente
-CASCADE;
-
 CREATE TABLE cliente (
     id_cliente  INTEGER GENERATED ALWAYS AS IDENTITY,
     nome        VARCHAR(100)  NOT NULL,
